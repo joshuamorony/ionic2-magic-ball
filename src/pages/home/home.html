@@ -1,0 +1,15 @@
+<ion-content padding>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="question" placeholder="Ask the mystic 8 ball anything..."></ion-input>
+    </ion-item>
+
+    <button ion-button full color="dark" (click)="showAnswer()">Click to Decide Fate</button>
+
+    <h2>{{answer}}</h2>
+
+  </ion-list>
+
+</ion-content>
